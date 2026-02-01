@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salma Salah - Linktree</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    }
+
+    body {
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+    .container {
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+    }
+
+    .profile-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-image: url('https://onu65v95kt.ufs.sh/f/4R8xh8GuA59KjtFT91cI79ymQu4WBxbnh1ONDMU2EGKFHpke');
+        background-size: cover;
+        background-position: center;
+        margin: 0 auto 20px;
+        border: 4px solid #000;
+    }
+
+    .profile-name {
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+        color:white;
+    }
+
+    .profile-bio {
+        font-size: 1.2rem;
+        color: whitesmoke;
+        margin-bottom: 30px;
+    }
+
+    .links-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .link-card {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        background-color: #000;
+        color: #fff;
+        padding: 15px;
+        border-radius: 10px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+    .link-card:hover {
+        background-color: #333;
+        transform: translateY(-2px);
+    }
+
+    .link-card i {
+        font-size: 20px;
+        min-width: 25px;
+        text-align: center;
+    }
+
+    @media (max-width: 480px) {
+        .profile-image {
+            width: 150px;
+            height: 150px;
+        }
+
+        .profile-name {
+            font-size: 1.5rem;
+        }
+
+        .profile-bio {
+            font-size: 1rem;
+        }
+
+        .link-card {
+            padding: 12px;
+        }
+
+        .link-card i {
+            font-size: 18px;
+        }
+    }
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="profile-image"></div>
+    <h1 class="profile-name">Salma Salah</h1>
+    <p class="profile-bio">Data Scientist</p>
+
+    <div class="links-container">
+        <a href="https://x.com/SalmaSalah66288/" target="_blank" class="link-card">
+            <i class="fab fa-x-twitter"></i> Twitter
+        </a>
+        <a href="https://www.linkedin.com/in/salma-salah-b59253295/" target="_blank" class="link-card">
+            <i class="fab fa-linkedin-in"></i> LinkedIn
+        </a>
+        <a href="https://github.com/Salma-Salah420" target="_blank" class="link-card">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://salma-salah420.github.io/SalmaPortifolio/" target="_blank" class="link-card">
+            <i class="fas fa-palette"></i> Portfolio
+        </a>
+        <a href="http://www.youtube.com/@salmasalah7940" target="_blank" class="link-card">
+            <i class="fab fa-youtube"></i> YouTube
+        </a>
+        <a href="mailto:your.email@example.com" target="_blank" class="link-card">
+            <i class="fas fa-envelope"></i> Contact
+        </a>
+    </div>
+</div>
+</body>
+</html>
